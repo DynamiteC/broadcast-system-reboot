@@ -1,0 +1,24 @@
+{
+  "name": "bsr",
+  "version": "1.0.0",
+  "description": "broadcast-system-reboot",
+  "main": "simple-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "bufferutil": "^4.0.8"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nightwatch": "^3.8.1"
+  }
+}
